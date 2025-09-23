@@ -1,0 +1,79 @@
+{
+	"name" : "ETF Extractdata",
+	"route" : "etf/tools/extractdata",
+	"description" : "<p>ETFs Extractdata</p>",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "etf",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech-auetfs/fintech-components-etf-etftoolsextractdata",
+	"class" : "Apps\\Fintech\\Components\\Etf\\Tools\\Extractdata\\ExtractdataComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.9",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : 
+		[
+			{
+				"name" : "EtfToolsExtractdata",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech-auetfs/fintech-packages-etf-etftoolsextractdata"
+			}
+		],
+		"middlewares" : [],
+		"views" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"menu" : 
+	{
+		"etf" : 
+		{
+			"title" : "etf",
+			"icon" : "file-invoice-dollar",
+			"childs" : 
+			{
+				"tools" : 
+				{
+					"title" : "tools",
+					"icon" : "screwdriver-wrench",
+					"childs" : 
+					{
+						"extractdata" : 
+						{
+							"title" : "extract data",
+							"icon" : "cloud-download",
+							"link" : "etf/tools/extractdata"
+						}
+					}
+				}
+			}
+		},
+		"seq" : "0"
+	},
+	"settings" : [],
+	"widgets" : []
+}
