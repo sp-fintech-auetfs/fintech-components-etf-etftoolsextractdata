@@ -13,7 +13,7 @@ class ExtractdataComponent extends BaseComponent
     {
         $this->etfToolsExtractDataPackage = $this->usePackage(EtfToolsExtractdata::class);
 
-        $this->setModuleSettings(true);
+        $this->setModuleSettings();
 
         $this->setModuleSettingsData([
                 'apis' => $this->etfToolsExtractDataPackage->getAvailableApis(true, false),
