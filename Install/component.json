@@ -5,7 +5,7 @@
 	"module_type" : "components",
 	"app_type" : "fintech",
 	"category" : "etf",
-	"version" : "0.0.0",
+	"version" : "0.1.0",
 	"repo" : "https://github.com/sp-fintech-auetfs/fintech-components-etf-etftoolsextractdata",
 	"class" : "Apps\\Fintech\\Components\\Etf\\Tools\\Extractdata\\ExtractdataComponent",
 	"dependencies" : 
